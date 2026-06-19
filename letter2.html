@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body {
+    margin: 0;
+}
+
+.page {
+    min-height: 250vh;
+    position: relative;
+}
+
+.page::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("loer.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+
+.space {
+    height: 200vh;
+}
+
+.final-picture {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.final-picture img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+
+    text-align: center;
+    transform: translateY(-300px);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <div class="space"></div>
+
+    <div class="final-picture">
+       <a href="https://open.spotify.com/playlist/2U3Cy2GRQhcUzT7ZFC6C3M?si=6bc64ac8ab8a4f0d&pt=b6090bce43fd0fb7cd93cc69e97eeb4c" target="_blank">
+        <img src="us.jpeg">
+       </a>
+    </div>
+
+</div>
+
+</body>
+</html>
